@@ -1,0 +1,29 @@
+from random import random_float64
+import benchmark
+
+
+fn test() -> None:
+    # LIST CONTAINER
+    var py_list = List[Float64]()
+
+    # LIST CREATION
+ 
+    for i in range(0, 100000):
+       py_list.append(random_float64(0, 10))
+  
+
+    # LINEAR SEARCH
+
+    var t: Float64 = 2.135678
+    for i in range(len(py_list)):
+       if py_list[i] == t:
+          print("Found")
+  
+
+fn main():
+    test()
+    try:
+        var report = benchmark.run[test]()
+        report.print()
+    except:
+        print("error")

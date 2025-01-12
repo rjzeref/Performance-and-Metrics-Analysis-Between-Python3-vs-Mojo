@@ -1,0 +1,30 @@
+from random import random_float64
+from collections import List
+import benchmark
+
+
+fn test():
+    # LIST CONTAINER
+    var arr = List[Float64]()
+
+    # LIST CREATION
+    for i in range(0, 100000):
+        arr.append(random_float64(0, 10))
+
+    # BUBBLE SORT
+    var n: Int64 = len(arr)
+    var temp: Float64 = 0
+    for i in range(0, n):
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                temp = arr[j]
+                arr[j] = arr[j + 1]
+                arr[j + 1] = temp
+
+fn main():
+    test()
+    try:
+        var report = benchmark.run[test]()
+        report.print()
+    except:
+        print("error")
