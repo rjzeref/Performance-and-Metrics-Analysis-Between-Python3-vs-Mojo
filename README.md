@@ -7,8 +7,6 @@ DOI : https://doi.org/10.1109/ICSCSS60660.2024.10625342 \
 
 ## Table of Contents
 
-- [Performance Analysis of Modular and Mojo](#performance-analysis-of-modular-and-mojo)
-  - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
   - [Python Architecture](#python-architecture)
   - [Architectural Breakdown](#architectural-breakdown)
