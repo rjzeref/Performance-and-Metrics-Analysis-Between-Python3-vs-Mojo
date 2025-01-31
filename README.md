@@ -1,4 +1,4 @@
-# Performance Analysis of Modular and Mojo
+# Performance Analysis of  Mojo and Python3
 
 This documentation is a part of [Reasearch Paper](./Research-Paper/Performance%20and%20Metrics%20Analysis%20Between%20Python3%20via%20Mojo.pdf) published which provides a performance analysis of Modular and Mojo, which are stated to support high-performance speed. The analysis was done using three famous data structure-based algorithms: Linear Search, Insertion Sort, and Bubble Sort. Recursion-based algorithms were not tested due to Python's fixed maximum recursion depth.
 
